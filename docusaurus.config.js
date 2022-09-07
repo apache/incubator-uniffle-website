@@ -117,7 +117,7 @@ const config = {
                         items: [
                             {
                                 label: 'Slack',
-                                href: 'https://github.com/apache/incubator-uniffle/issues',
+                                href: 'https://join.slack.com/t/the-asf/shared_invite/zt-1fm9561yr-uzTpjqg3jf5nxSJV5AE3KQ',
                             },
                             {
                                 label: 'Issue Tracker',
