@@ -63,10 +63,6 @@ const config = {
                     showReadingTime: true,
                     editUrl: 'https://github.com/apache/incubator-uniffle',
                 },
-                download: {
-                    showReadingTime: true,
-                    editUrl: 'https://github.com/apache/incubator-uniffle',
-                },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
