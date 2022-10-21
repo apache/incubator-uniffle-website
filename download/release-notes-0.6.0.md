@@ -1,23 +1,23 @@
 ---
 title: Release Notes 0.6.0
-sidebar_position: 10
+sidebar_position: 2
 --- 
 
 # Release Note
 
 ## Highlight
 
-Support quorum replication mechanism
+##### Support quorum replication mechanism
 
-Optimize the assignment strategy
+##### Optimize the assignment strategy
 
-Some improvements of stability and performance
+##### Some improvement of stability and performance
 
-Add a plugin mechanism of SelectStorageStrategy
+##### Add a plugin mechanism of SelectStorageStrategy
 
-A new select storage strategy called LowestIOSampleCostSelectStorageStrategy
+##### Add LowestIOSampleCostSelectStorageStrategy
 
-Support Kerberos HDFS
+##### Support Kerberos HDFS
 
 ## ChangeLog
 
@@ -141,4 +141,4 @@ Support Kerberos HDFS
 * Add Notice and DISCLAMER file by @frankliee in https://github.com/apache/incubator-uniffle/pull/215
 
 ## Credits
-The release of Uniffle 1.0.2 is inseparable from the contributors of the Uniffle community. Thanks to all the community contributors! 
+The release of Uniffle 0.6.0 is inseparable from the contributors of the Uniffle community. Thanks to all the community contributors! 

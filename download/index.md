@@ -1,5 +1,6 @@
 ---
 title: Download
+sidebar_position: 1
 ---
 <!--
 {% comment %}
@@ -19,6 +20,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 {% endcomment %}
 -->
+
 ## Apache Uniffle(incubating) Downloads
 
 Apache Uniffle(incubating) is released as a source artifact.
