@@ -74,6 +74,7 @@ const config = {
                     {type: 'doc', docId: 'intro', position: 'right', label: 'Docs'},
                     {type: 'doc', docId: 'how-to-contribute', position: 'right', label: 'Community', docsPluginId: 'community'},
                     {to: '/blog', label: 'Blog', position: 'right'},
+                    {to: '/download', label: 'Download', position: 'right'},
                     {
                         type: 'dropdown',
                         label: 'ASF',
