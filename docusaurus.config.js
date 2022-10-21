@@ -35,6 +35,15 @@ const config = {
                 sidebarPath: require.resolve('./sidebars.js'),
             },
         ],
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'download',
+                path: 'download',
+                routeBasePath: 'download',
+                sidebarPath: require.resolve('./sidebars.js'),
+            },
+        ]
     ],
 
     presets: [
@@ -51,10 +60,6 @@ const config = {
                     editUrl: 'https://github.com/apache/incubator-uniffle',
                 },
                 blog: {
-                    showReadingTime: true,
-                    editUrl: 'https://github.com/apache/incubator-uniffle',
-                },
-                download: {
                     showReadingTime: true,
                     editUrl: 'https://github.com/apache/incubator-uniffle',
                 },
