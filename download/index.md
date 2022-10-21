@@ -44,7 +44,7 @@ We are pleased to announce our 0.6.0 release as below.
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.6.0/apache-uniffle-0.6.0-incubating-src.tar.gz">tar.gz</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.6.0/apache-uniffle-0.6.0-incubating-src.tar.gz.sha512">SHA-512</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.6.0/apache-uniffle-0.6.0-incubating-src.tar.gz.asc">ASC</a></td>
-            <td><a href="release-notes-0.6.0.md">Release Notes</a></td>
+            <td><a href="https://uniffle.apache.org/download/release-notes-0.6.0">Release Notes</a></td>
         </tr>
     </tbody>
 </table>

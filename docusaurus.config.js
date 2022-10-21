@@ -35,6 +35,15 @@ const config = {
                 sidebarPath: require.resolve('./sidebars.js'),
             },
         ],
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'download',
+                path: 'download',
+                routeBasePath: 'download',
+                sidebarPath: require.resolve('./sidebars.js'),
+            },
+        ]
     ],
 
     presets: [
