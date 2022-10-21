@@ -7,17 +7,15 @@ sidebar_position: 2
 
 ## Highlight
 
-##### Support quorum replication mechanism
+- Optimize the assignment strategy
 
-##### Optimize the assignment strategy
+- Some improvement of stability and performance
 
-##### Some improvement of stability and performance
+- Add a plugin mechanism of SelectStorageStrategy
 
-##### Add a plugin mechanism of SelectStorageStrategy
+- Add LowestIOSampleCostSelectStorageStrategy
 
-##### Add LowestIOSampleCostSelectStorageStrategy
-
-##### Support Kerberos HDFS
+- Support Kerberos HDFS
 
 ## ChangeLog
 
