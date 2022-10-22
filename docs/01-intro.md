@@ -15,6 +15,11 @@
   ~ limitations under the License.
   -->
 
+---
+title: intro
+sidebar_position: 1
+---
+
 # What is Uniffle
 
 Uniffle is a Remote Shuffle Service, and provides the capability for Apache Spark applications
