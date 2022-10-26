@@ -1,4 +1,4 @@
-# HARDWARE PROVISIONING
+# Hardware Provision
 A common question received by Uniffle users is how to configure hardware for it. While the right hardware will depend on the situation, we make the following recommendations.
 
 ## LOCAL DISKS
