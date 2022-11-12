@@ -9,10 +9,26 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
     {
-        title: 'What is Apache Uniffle(Incubating)',
+        title: 'Fast',
         description: (
             <>
-                Apache Uniffle(Incubating) is a Remote Shuffle Service, and provides the capability for Apache Spark applications to store shuffle data on remote servers.
+                Reduces number of connections and random I/O in data shuffle.
+            </>
+        ),
+    },
+    {
+        title: 'Reliable',
+        description: (
+            <>
+                Reduces out of memory (or disk space) failures for large jobs.
+            </>
+        ),
+    },
+    {
+        title: 'Disaggregated Storage',
+        description: (
+            <>
+                Enables orchestration and improves resource utilization.
             </>
         ),
     },
@@ -29,6 +45,14 @@ const FeatureList: FeatureItem[] = [
         description: (
             <>
                 Supports the MapReduce framework of Apache Hadoop 2.8.x.
+            </>
+        ),
+    },
+    {
+        title: 'Kubernetes integration',
+        description: (
+            <>
+                Works well in containerized environments like Kubernetes.
             </>
         ),
     },
