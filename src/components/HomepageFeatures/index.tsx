@@ -49,7 +49,7 @@ const FeatureList: FeatureItem[] = [
         ),
     },
     {
-        title: 'Kubernetes integration',
+        title: 'Kubernetes Integration',
         description: (
             <>
                 Works well in containerized environments like Kubernetes.
