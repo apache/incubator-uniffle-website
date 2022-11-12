@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'Apache Uniffle (Incubating)',
-    tagline: 'Apache Uniffle (Incubating) is a unified remote shuffle service for compute engines such as Apache Spark and MapReduce.',
+    tagline: 'Apache Uniffle is a unified remote shuffle service for compute engines.',
     url: 'https://uniffle.apache.org/',
     baseUrl: '/',
     onBrokenLinks: 'throw',
