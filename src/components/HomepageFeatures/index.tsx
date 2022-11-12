@@ -17,18 +17,18 @@ const FeatureList: FeatureItem[] = [
         ),
     },
     {
-        title: 'Supported Version',
+        title: 'Spark Support',
         description: (
             <>
-                Current support Spark 2.3.x, Spark 2.4.x, Spark3.0.x, Spark 3.1.x, Spark 3.2.x, and support Hadoop 2.8.5's MapReduce framework.
+                Supports Apache Spark 2.3.x, 2.4.x, 3.0.x, 3.1.x, 3.2.x.
             </>
         ),
     },
     {
-        title: 'Support',
+        title: 'MapReduce Support',
         description: (
             <>
-                We provide free support for users using this project.
+                Supports the MapReduce framework of Apache Hadoop 2.8.x.
             </>
         ),
     },
