@@ -16,7 +16,7 @@
 #  under the License.
 
 github:
-  description: "Apache Uniffle(Incubating) Website"
+  description: "Apache Uniffle (Incubating) Website"
   homepage: https://uniffle.apache.org/
   features:
     issues: false

@@ -74,9 +74,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             navbar: {
-                title: 'Apache Uniffle(Incubating)',
+                title: 'Apache Uniffle (Incubating)',
                 logo: {
-                    alt: 'Apache Uniffle(Incubating)',
+                    alt: 'Apache Uniffle (Incubating)',
                     src: 'img/uniffle-logo.png',
                 },
                 items: [
@@ -152,9 +152,9 @@ const config = {
                 },
                 copyright: `<div style="text-align: left;">
           <div>
-            <p style="font-family: Avenir-Medium;font-size: 14px;color: #999;line-height: 20px;"> Apache Uniffle(Incubating) is an effort undergoing incubation at The Apache Software Foundation (ASF), sponsored by the Apache Incubator. Incubation is required of all newly accepted projects until a further review indicates that the infrastructure, communications, and decision making process have stabilized in a manner consistent with other successful ASF projects. While incubation status is not necessarily a reflection of the completeness or stability of the code, it does indicate that the project has yet to be fully endorsed by the ASF. </p>
+            <p style="font-family: Avenir-Medium;font-size: 14px;color: #999;line-height: 20px;"> Apache Uniffle (Incubating) is an effort undergoing incubation at The Apache Software Foundation (ASF), sponsored by the Apache Incubator. Incubation is required of all newly accepted projects until a further review indicates that the infrastructure, communications, and decision making process have stabilized in a manner consistent with other successful ASF projects. While incubation status is not necessarily a reflection of the completeness or stability of the code, it does indicate that the project has yet to be fully endorsed by the ASF. </p>
           </div>
-          <div style="border-top: 1px solid #ccc;min-height: 60px;line-height: 20px;text-align: center;font-family: Avenir-Medium;font-size: 14px;color: #999;display: flex;align-items: center;"><span>Copyright © ${new Date().getFullYear()} The Apache Software Foundation. Apache Uniffle(Incubating), Uniffle, and its feather logo are trademarks of The Apache Software Foundation.</span></div>
+          <div style="border-top: 1px solid #ccc;min-height: 60px;line-height: 20px;text-align: center;font-family: Avenir-Medium;font-size: 14px;color: #999;display: flex;align-items: center;"><span>Copyright © ${new Date().getFullYear()} The Apache Software Foundation. Apache Uniffle (Incubating), Uniffle, and its feather logo are trademarks of The Apache Software Foundation.</span></div>
         </div>`,
             },
             prism: {
