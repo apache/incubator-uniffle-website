@@ -27,9 +27,7 @@ Apache Uniffle (Incubating) is released as a source artifact.
 We are pleased to announce our 0.6.0 release as below.
 
 
-### Release Candidate 
-<!--when pass vote, we can change it back to Release Artifacts
--->
+### Releases
 <table class="table table-hover sortable">
     <thead>
         <tr>
