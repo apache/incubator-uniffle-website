@@ -28,5 +28,5 @@
   |Jiafu Zhang|Intel|
   |Junfan Zhang|iQIYI|
   |Jie Yang|Baidu|
-  |Xianjin Ye|Bytedance|
   |Kaijie Chen|Tencent|
+  |Xianjin Ye|Bytedance|
