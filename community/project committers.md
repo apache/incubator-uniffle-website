@@ -18,7 +18,7 @@
   ## current committers
   |Name|Organization|
   |---|---|
-  |Jerry Shao |Tencent|
+  |Jerry Shao|Tencent|
   |Junjie Ma|Ebay|
   |He Qi|Tencent|
   |Meng Duan|Tencent|
@@ -28,4 +28,5 @@
   |Jiafu Zhang|Intel|
   |Junfan Zhang|iQIYI|
   |Jie Yang|Baidu|
+  |Kaijie Chen|Tencent|
   |Xianjin Ye|Bytedance|
