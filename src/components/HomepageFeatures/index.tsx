@@ -36,7 +36,7 @@ const FeatureList: FeatureItem[] = [
         title: 'Spark Support',
         description: (
             <>
-                Supports Apache Spark 2.3.x, 2.4.x, 3.0.x, 3.1.x, 3.2.x.
+                Supports Apache Spark 2.3.x, 2.4.x, 3.0.x, 3.1.x, 3.2.x, 3.3.x.
             </>
         ),
     },
