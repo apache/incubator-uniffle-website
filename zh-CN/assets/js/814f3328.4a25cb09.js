@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"2022 summary","permalink":"/zh-CN/blog/2023/01/09/2022 summary"}]}')}}]);
