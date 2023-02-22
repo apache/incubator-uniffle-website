@@ -36,7 +36,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Apache Uniffle is a unified remote shuffle service for compute engines.">
+      description="A high performance, general purpose remote shuffle service for distributed compute engines.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
