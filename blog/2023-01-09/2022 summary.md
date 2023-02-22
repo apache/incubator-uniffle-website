@@ -26,6 +26,7 @@ Apache Uniffle (Incubating) was accepted as an Apache incubator project on June 
 Apache Uniffle (incubating) has released two versions in 2022: 0.6.0 and 0.6.1. Among them:
 1. 2022.10.27: Version 0.6.0 released
 2. 2022.11.30: Version 0.6.1 released
+
 Version 0.6.0 is the first version released after Uniffle entered the Apache incubator.  It features: 
 1. Optimizes the Coordinator's allocation mechanism
 2. Optimizes the scheduling strategy for `Shuffle Server`
