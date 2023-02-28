@@ -19,14 +19,14 @@
   |Name|Organization|
   |---|---|
   |Jerry Shao|Tencent|
-  |Junjie Ma|Ebay|
+  |Junjie Ma|eBay|
   |He Qi|Tencent|
   |Meng Duan|Tencent|
   |Zhifang Li|Tencent|
   |Fanbo Nie|VIP Shop|
-  |Zhong Wan|Miscrosoft|
+  |Zhong Wan|Microsoft|
   |Jiafu Zhang|Intel|
   |Junfan Zhang|iQIYI|
   |Jie Yang|Baidu|
   |Kaijie Chen|Tencent|
-  |Xianjin Ye|Bytedance|
+  |Xianjin Ye|ByteDance|
