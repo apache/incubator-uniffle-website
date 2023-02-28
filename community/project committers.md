@@ -23,7 +23,7 @@
   |He Qi|Tencent|
   |Meng Duan|Tencent|
   |Zhifang Li|Tencent|
-  |Fanbo Nie|VIP Shop|
+  |Fanbo Nie|Vipshop|
   |Zhong Wan|Microsoft|
   |Jiafu Zhang|Intel|
   |Junfan Zhang|iQIYI|
