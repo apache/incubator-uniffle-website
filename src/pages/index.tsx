@@ -35,8 +35,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description={`${siteConfig.tagline}`}>
+      title="Home"
+      description="Apache Uniffle is a high performance, general purpose remote shuffle service for distributed computing engines.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
