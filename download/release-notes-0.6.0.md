@@ -1,6 +1,6 @@
 ---
 title: Release Notes 0.6.0
-sidebar_position: 2
+sidebar_position: 999
 --- 
 
 # Release Note
@@ -139,4 +139,4 @@ sidebar_position: 2
 * Add Notice and DISCLAMER file by @frankliee in https://github.com/apache/incubator-uniffle/pull/215
 
 ## Credits
-The release of Uniffle 0.6.0 is inseparable from the contributors of the Uniffle community. Thanks to all the community contributors! 
+The release of Uniffle 0.6.0 is inseparable from the contributors of the Uniffle community. Thanks to all the community contributors!

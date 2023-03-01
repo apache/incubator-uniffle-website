@@ -1,6 +1,6 @@
 ---
 title: Release Notes 0.6.1
-sidebar_position: 2
+sidebar_position: 998
 --- 
 
 # Release Note

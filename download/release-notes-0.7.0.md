@@ -1,7 +1,7 @@
 ---
 title: Release Notes 0.7.0
-sidebar_position: 3
---- 
+sidebar_position: 997
+---
 
 # Release Note
 
