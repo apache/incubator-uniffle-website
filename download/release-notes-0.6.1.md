@@ -1,9 +1,9 @@
 ---
 title: Release Notes 0.6.1
 sidebar_position: 998
---- 
+---
 
-# Release Note
+# Uniffle Release 0.6.1
 
 ## Highlight
 

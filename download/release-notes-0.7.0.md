@@ -3,7 +3,7 @@ title: Release Notes 0.7.0
 sidebar_position: 997
 ---
 
-# Release Note
+# Uniffle Release 0.7.0
 
 ## Highlight
 - Better support for Spark AQE

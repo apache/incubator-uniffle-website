@@ -1,9 +1,9 @@
 ---
 title: Release Notes 0.6.0
 sidebar_position: 999
---- 
+---
 
-# Release Note
+# Uniffle Release 0.6.0
 
 ## Highlight
 
