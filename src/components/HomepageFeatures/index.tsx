@@ -49,10 +49,10 @@ const FeatureList: FeatureItem[] = [
         ),
     },
     {
-        title: 'Kubernetes Integration',
+        title: 'Kubernetes Operator',
         description: (
             <>
-                Works well in containerized environments like Kubernetes.
+                Extends the Kubernetes API to create, configure, and manage Uniffle instances.
             </>
         ),
     },
