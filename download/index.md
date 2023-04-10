@@ -62,6 +62,7 @@ using the corresponding *pgp* signature (using the committer file in
 If you cannot do that, the *sha512* hash file may be used to check that the
 download has completed OK.
 
-For fast downloads, current source distributions are hosted on mirror servers;
+For fast downloads, current source distributions are hosted on
+[mirror servers](https://dlcdn.apache.org/incubator/uniffle/);
 older source distributions are in the
 [archive](https://archive.apache.org/dist/incubator/uniffle/).
