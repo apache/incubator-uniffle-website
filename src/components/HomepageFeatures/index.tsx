@@ -25,7 +25,7 @@ const FeatureList: FeatureItem[] = [
         ),
     },
     {
-        title: 'Disaggregated Storage',
+        title: 'Elastic',
         description: (
             <>
                 Enables orchestration and improves resource utilization.
