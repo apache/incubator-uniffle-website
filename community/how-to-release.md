@@ -179,6 +179,13 @@ $ svn ci -m "add gpg key for YOUR_NAME"
 
 ### 2.1 Package source code
 
+We should prepare a new branc, modify and ensure the version of pom, and add a tag
+```shell
+git checkout branch-1.0.3
+git tag v1.0.3
+git push origin v1.0.3
+```
+
 ```shell
 $ mkdir -p dist/apache-uniffle
 
@@ -226,9 +233,6 @@ $ cd dist/apache-uniffle
 $ for i in *.tar.gz; do echo $i; sha512sum --check $i.sha512; done
 
 ```
-
-The detailed verification process can be found in [Verification Candidate Version](how-to-verify.md)
-
 
 
 ## 3 Publish the Apache SVN repository
@@ -278,7 +282,7 @@ $ svn commit -m "prepare for 1.0.3-RC1"
 If Chinese garbled characters appear in the svn command, you can try to set the encoding format (set the encoding format: export LANG=en_US.UTF-8).
 
 ## 4 Verify Release Candidates
-
+More detail checklist please refer: https://cwiki.apache.org/confluence/display/INCUBATOR/Incubator+Release+Checklist
 
 
 ## 5 Initiates a vote
@@ -326,7 +330,7 @@ Hello Uniffle Community,
         https://github.com/apache/incubator-uniffle/tree/v${release_version}-${rc_version}
     
     Keys to verify the Release Candidate:
-        https://downloads.apache.org/incubator/uniffle/KEYS
+         https://dist.apache.org/repos/dist/dev/incubator/uniffle/KEYS
     
     GPG user ID:
     ${YOUR.GPG.USER.ID}
