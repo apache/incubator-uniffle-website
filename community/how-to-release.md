@@ -495,7 +495,7 @@ $ svn delete https://dist.apache.org/repos/dist/release/incubator/uniffle/${last
 ````
 
 
-### 6.4 Update download page
+### 6.3 Update download page
 
 <font color='red'>Chinese and English documents should be updated</font>
 
@@ -505,7 +505,7 @@ After waiting and confirming that the new release version is synced to the Apach
 
 - https://uniffle.apache.org/download/main
 
-### 6.5 GitHub version released
+### 6.4 GitHub version released
 
 1. Merge `${release_version}-RC` branch to `master` branch (if not merged)
 2. Tag the official version, and the RC version tag during the voting process can be removed
