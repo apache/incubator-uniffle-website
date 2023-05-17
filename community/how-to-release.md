@@ -503,7 +503,7 @@ The official website download address of uniffle should point to the official ad
 
 After waiting and confirming that the new release version is synced to the Apache mirror (https://downloads.apache.org/incubator/uniffle/), update the following page:
 
-- https://uniffle.apache.org/download/main
+- https://uniffle.apache.org/download/
 
 ### 6.4 GitHub version released
 
