@@ -182,8 +182,8 @@ $ svn ci -m "add gpg key for YOUR_NAME"
 We should prepare a new branc, modify and ensure the version of pom, and add a tag
 ```shell
 git checkout branch-1.0.3
-git tag v1.0.3
-git push origin v1.0.3
+git tag v1.0.3-rc1
+git push origin v1.0.3-rc1
 ```
 
 ```shell
