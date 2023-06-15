@@ -179,7 +179,7 @@ $ svn ci -m "add gpg key for YOUR_NAME"
 
 ### 2.1 Package source code
 
-We should prepare a new branc, modify and ensure the version of pom, and add a tag
+We should prepare a new branch, modify and ensure the version of pom, and add a tag
 ```shell
 git checkout branch-1.0.3
 git tag v1.0.3-rc1
@@ -320,7 +320,7 @@ Hello Uniffle Community,
     This is a call for vote to release Apache Uniffle (Incubating) version ${release_version}-${rc_version}.
 
     Release notes:
-        https://github.com/apache/incubator-uniffle/releases/tag/v${release_version}-${rc_version}
+        https://uniffle.apache.org/download/release-notes-${release_version}
     
     The release candidates:
         https://dist.apache.org/repos/dist/dev/incubator/uniffle/${release_version}-${rc_version}/
@@ -422,7 +422,7 @@ Hello Incubator Community,
     • https://github.com/apache/incubator-uniffle/releases/tag/${release_version}-${rc_version}
 
     Release notes:
-    • https://github.com/apache/incubator-uniffle/releases/tag/${release_version}-${rc_version}
+    • https://uniffle.apache.org/download/release-notes-${release_version}
 
     The artifacts signed with PGP key [fill in your personal KEY], corresponding to [fill in your personal email], that can be found in keys file:
     • https://downloads.apache.org/incubator/uniffle/KEYS
