@@ -529,7 +529,7 @@ Apache Uniffle (Incubating) builds a computation middleware layer to decouple th
 
 Download Links: https://uniffle.apache.org/download/
 
-Release Notes: https://uniffle.apache.org/download/release-${release_version}/
+Release Notes: https://uniffle.apache.org/download/release-notes-${release_version}/
 
 Website: https://uniffle.apache.org/
 
