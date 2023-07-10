@@ -506,9 +506,8 @@ After waiting and confirming that the new release version is synced to the Apach
 
 ### 6.4 GitHub version released
 
-1. Merge `${release_version}-RC` branch to `master` branch (if not merged)
-2. Tag the official version, and the RC version tag during the voting process can be removed
-3. On the [GitHub Releases](https://github.com/apache/incubator-uniffle/releases) page, update the version number and version description, etc.
+1. Tag the official version, and the RC version tag during the voting process can be removed
+2. On the [GitHub Releases](https://github.com/apache/incubator-uniffle/releases) page, update the version number and version description, etc.
 
 
 ## 7 Email notification version is released
