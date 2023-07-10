@@ -477,8 +477,9 @@ The path name of release cannot carry the rc identifier
 Move source and binary packages from svn's `dev` directory to the `release` directory
 
 ```shell
-#Mobile source package and binary package
+#Move source package and binary package from dev to release
 $ svn mv https://dist.apache.org/repos/dist/dev/incubator/uniffle/${release_version}-${rc_version} https://dist.apache.org/repos/dist/release/incubator/uniffle/ -m "transfer packages for ${release_version}-${rc_version}"
+$ svn mv https://dist.apache.org/repos/dist/release/incubator/uniffle/${release_version}-${rc_version} https://dist.apache.org/repos/dist/release/incubator/uniffle/${release_version} -m "rename to ${release_version}"
 
 # The following operations decide whether to update the key of the release branch according to the actual situation
 # Clear the KEYS in the original release directory
@@ -491,12 +492,6 @@ $ svn cp https://dist.apache.org/repos/dist/dev/incubator/uniffle/KEYS https://d
 ### 6.2 Confirm whether the packages under dev and release are correct
 
 - Confirm that `${release_version}-${rc_version}` under [dev](https://dist.apache.org/repos/dist/dev/incubator/uniffle/) has been removed
-- Delete the release packages of the previous version in the [release](https://dist.apache.org/repos/dist/release/incubator/uniffle/) directory, these packages will be automatically saved [here](https://downloads.apache.org/incubator/uniffle/)
-
-```shell
-#Before deleting, please confirm that the previous version release package has been updated to https://downloads.apache.org/incubator/uniffle/
-$ svn delete https://dist.apache.org/repos/dist/release/incubator/uniffle/${last_release_version} -m "Delete ${last_release_version}"
-````
 
 
 ### 6.3 Update download page
