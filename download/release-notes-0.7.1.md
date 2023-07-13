@@ -1,6 +1,6 @@
 ---
 title: Release Notes 0.7.1
-sidebar_position: 998
+sidebar_position: 996
 ---
 
 # Uniffle Release 0.7.1
