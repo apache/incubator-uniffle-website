@@ -15,11 +15,9 @@
   ~ limitations under the License.
   -->
   
-# Uniffle: A new chapter for the shuffle in Cloud Native Era
-
 ## Background
 Shuffle is the process in distributed computing frameworks used to redistribute data between upstream and downstream tasks. It is a crucial component within computing frameworks and directly impacts their performance and stability. 
-However, with the exploration of cloud-native architectures, traditional Shuffle solutions have revealed various issues. 
+However, with the exploration of cloud-native architectures, traditional shuffle solutions have revealed various issues. 
 
 In a cloud-native architecture, with use of techniques such as the separation of storage and compute, mixed deployment.The computational nodes have relatively low disk volume, poor IO performance, and an imbalance between CPU and IO resources.
 Additionally, computational nodes could be preempted by high-priority jobs due to mixed deployments.
@@ -40,10 +38,10 @@ Each system has made its own trade-offs based on different scenarios. Uniffle ai
 The Coordinator is responsible for managing the entire cluster, and the Shuffle Server reports the cluster's load situation to the Coordinator through heartbeats. Based on the cluster's load, the Coordinator assigns suitable Shuffle Servers for jobs. To facilitate operations and maintenance, the Coordinator supports configuration deployment and provides a RESTFUL API for external access.
 
 ### Shuffle Server
-Shuffle Server is primarily responsible for receiving , aggregating  and writing shuffle data into storage. For Shuffle data stored in local disks, Shuffle Server provides the ability to read the data.
+Shuffle Server is primarily responsible for receiving, aggregating  and writing shuffle data into storage. For shuffle data stored in local disks, Shuffle Server provides the ability to read the data.
 
 ### Client
-The Client is responsible for communicating with the Coordinator and Shuffle Server. It handles tasks such as requesting Shuffle Servers, sending heartbeats, and performing read and write operations on Shuffle data. It provides an SDK for Spark, MapReduce and Tez to use.
+The Client is responsible for communicating with the Coordinator and Shuffle Server. It handles tasks such as requesting Shuffle Servers, sending heartbeats, and performing read and write operations on shuffle data. It provides an SDK for Spark, MapReduce and Tez to use.
 
 
 ## Read & Write process
@@ -52,7 +50,7 @@ The Client is responsible for communicating with the Coordinator and Shuffle Ser
 2. The Driver registers Shuffle information with the Shuffle Server.
 3. Based on the allocation information, the Executor sends Shuffle data to the Shuffle Server in the form of Blocks.
 4. The Shuffle Server writes the data into storage.
-5. After write task is completed, the Executor updates the result to the Driver.
+5. After writing tasks completed, the Executor updates the result to the Driver.
 6. The read task retrieves successful write task information from the Driver.
 7. The read task retrieves Shuffle metadata (such as all blockIds) from the Shuffle Server.
 8. Based on the storage model, the read task reads Shuffle data from the storage side.
