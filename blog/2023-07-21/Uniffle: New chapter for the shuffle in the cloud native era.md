@@ -20,12 +20,18 @@
 ## Background
 Shuffle is the process in distributed computing frameworks used to redistribute data between upstream and downstream tasks. It is a crucial component within computing frameworks and directly impacts their performance and stability. 
 However, with the exploration of cloud-native architectures, traditional Shuffle solutions have revealed various issues. 
-In a cloud-native architecture, techniques such as storage-compute separation and mixed deployment are also applied simultaneously.
-The computational nodes have relatively small disk capacities, poor IO performance, and an imbalance between CPU and IO resources.
+
+In a cloud-native architecture, techniques such as storage-compute separation and mixed deployment are also applied simultaneously.The computational nodes have relatively small disk capacities, poor IO performance, and an imbalance between CPU and IO resources.
 Additionally, computational nodes may be preempted by high-priority jobs due to mixed deployments.
+
 In traditional Shuffle implementations, Shuffle nodes are tightly coupled with computational nodes. However, due to the different resource requirements for disk, memory, CPU, and node stability between computational and Shuffle nodes, it is challenging to independently scale them based on their resource needs.
-By separating the computational nodes from Shuffle nodes, the computational node's state becomes more lightweight after offloading the Shuffle state to Shuffle nodes, reducing the need for job recomputation when computational nodes are preempted. Decoupling computational and Shuffle nodes also reduces the demand for disk specifications on computational nodes, enabling an increase in the number of accessible computational nodes.
+By separating the computational nodes from Shuffle nodes, the computational node's state becomes more lightweight after offloading the Shuffle state to Shuffle nodes, reducing the need for job recomputation when computational nodes are preempted. 
+
+Decoupling computational and Shuffle nodes also reduces the demand for disk specifications on computational nodes, enabling an increase in the number of accessible computational nodes.
+
 In cloud-native architectures, large Shuffle jobs can exert significant pressure on local disk drives, leading to issues such as insufficient disk capacity on computational nodes and higher disk random IO, thus affecting the performance and stability of large Shuffle jobs.
+
+
 The industry has explored various new Shuffle technologies, including Google's BigQuery, Baidu DCE Shuffle, Facebook's Cosco Shuffle, Uber Zeus Shuffle, Alibaba's Celeborn Shuffle, and many others.
 Each system has made its own trade-offs based on different scenarios. Uniffle aims to create a fast, accurate, stable, and cost-efficient cloud-native Remote Shuffle Service, considering performance, correctness, stability, and cost as its core aspects.
 
