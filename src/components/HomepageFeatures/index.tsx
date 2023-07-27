@@ -41,10 +41,10 @@ const FeatureList: FeatureItem[] = [
         ),
     },
     {
-        title: 'MapReduce Support',
+        title: 'MapReduce/Tez Support',
         description: (
             <>
-                Supports the MapReduce framework of Apache Hadoop 2.8.x.
+                Supports the MapReduce framework of Apache Hadoop 2.8.x, 3.2.x and Apache Tez 0.9.1.
             </>
         ),
     },
