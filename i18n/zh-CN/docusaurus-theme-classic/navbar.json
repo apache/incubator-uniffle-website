@@ -18,5 +18,26 @@
   "item.label.Download": {
     "message": "下载",
     "description": "Navbar item with label Download"
+  },
+  "item.label.Sponsorship": {
+    "message": "赞助"
+  },
+  "item.label.Foundation": {
+    "message": "基金会"
+  },
+  "item.label.License": {
+    "message": "许可证"
+  },
+  "item.label.Events": {
+    "message": "事件"
+  },
+  "item.label.Security": {
+    "message": "安全"
+  },
+  "item.label.Privacy": {
+    "message": "隐私"
+  },
+  "item.label.Thanks": {
+    "message": "感谢"
   }
 }

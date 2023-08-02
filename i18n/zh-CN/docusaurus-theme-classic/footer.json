@@ -1,0 +1,17 @@
+{
+    "link.title.Docs": {
+        "message": "文档"
+    },
+    "link.title.More": {
+        "message": "更多"
+    },   
+    "link.title.Community": {
+        "message": "社区"
+    },
+    "link.item.label.Getting Started": {
+        "message": "开始文档"
+    },
+    "link.item.label.Issue Tracker": {
+        "message": "问题跟踪"
+    }
+}
