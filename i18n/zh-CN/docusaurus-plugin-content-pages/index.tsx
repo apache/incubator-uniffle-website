@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">Apache Uniffle 一个适用于分布式计算引擎的高性能、通用型的远程 shuffle 服务。</p>
+        <p className="hero__subtitle">Apache Uniffle 是一个适用于分布式计算引擎的高性能、通用型的远程 shuffle 服务。</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -36,7 +36,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title="主页"
-      description="Apache Uniffle 一个适用于分布式计算引擎的高性能、通用型的远程 shuffle 服务。">
+      description="Apache Uniffle 是一个适用于分布式计算引擎的高性能、通用型的远程 shuffle 服务。">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
