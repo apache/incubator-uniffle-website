@@ -81,7 +81,7 @@ const config = {
                 },
                 items: [
                     {type: 'doc', docId: 'intro', position: 'right', label: 'Docs'},
-                    {type: 'doc', docId: 'how-to-contribute', position: 'right', label: 'Community', docsPluginId: 'community'},
+                    {type: 'doc', docId: 'how to contribute', position: 'right', label: 'Community', docsPluginId: 'community'},
                     {to: '/blog', label: 'Blog', position: 'right'},
                     {to: '/download', label: 'Download', position: 'right'},
                     {
