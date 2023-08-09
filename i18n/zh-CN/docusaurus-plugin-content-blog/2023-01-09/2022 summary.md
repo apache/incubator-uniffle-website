@@ -18,10 +18,10 @@
   
 ## 引言
 
-2020年底，Apache Uniffle (incubating) 在腾讯内部写下了他的第一行代码，21年11月份对外开源，22 年中被捐献给了 Apache 基金会。自被捐献给了 Apache 基金会后，它吸引了较多来自各个公司的开发者。本文瑾对 Apache Uniffle (incubating) 2022 做个简单的小结。
+2020 年底，Apache Uniffle (incubating) 在腾讯内部写下了他的第一行代码，21 年 11 月份对外开源，22 年中被捐献给了 Apache 基金会。自被捐献给了 Apache 基金会后，它吸引了较多来自各个公司的开发者。本文瑾对 Apache Uniffle (incubating) 2022 做个简单的小结。
 
 ## 时间线
-Apache Uniffle (Incubating) 于 2022年6月6日进行 Apache 孵化器，截止到 2022年12月底 (当前写作时间：2022.12.26)，共新建了 157 个 Issue (其中 76 个被关闭或者解决)， 新增了 272 个 PRs (其中 264 个被合入或者关闭)。
+Apache Uniffle (Incubating) 于 2022 年 6 月 6 日进行 Apache 孵化器，截止到 2022 年 12 月底 (当前写作时间：2022.12.26)，共新建了 157 个 Issue (其中 76 个被关闭或者解决)， 新增了 272 个 PRs (其中 264 个被合入或者关闭)。
 
 Apache Uniffle (incubating) 2022 年共发布了两个版本：0.6.0 和 0.6.1。 其中：
 1. 2022.10.27：0.6.0 版本发布
