@@ -32,3 +32,4 @@
   | Xianjin Ye      | ByteDance    |
   | Xianjing Feng   | SF Express   |
   | Jingxiong Zhong | ByteDance    |
+  | Xianming Lei    | DiDi Global  |
