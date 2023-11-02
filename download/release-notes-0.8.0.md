@@ -15,6 +15,21 @@ sidebar_position: 995
 
 ## ChangeLog
 
+* [MINOR] fix: incorrect version in spark client shaded modules
+* [#1275] chore: add scripts for publishing maven releases (#1281)
+* [#1274] feat: add shaded module for spark2 client (#1280)
+* [#1273] feat: add shaded module for spark3 client (#1279)
+* [#1277] chore: add flatten maven plugin (#1278)
+* [#1252] fix(server): Incorrect storage write fail metric (#1253)
+* [#1254][FOLLOWUP] fix(test): Fix the flaky test RssShuffleTest. (#1259)
+* [#1261] fix(spark): Throw out InterruptedException for sleep in requestExecutorMemory #1262
+* [#1254] fix(test): Fix the flaky test RssShuffleTest. (#1255)
+* [#1243] fix(test): Fix the flaky test `SparkSQLTest` and `RepartitionTest` (#1244)
+* [#1219] fix(test): Fix the flaky test `WriteAndReadMetricsTest` (#1235)
+* [MINOR] Fix kubernetest CI pipeline (#1227)
+* [#1211] fix(server): unexpectedly removing resources when app has re-registered shuffle later (#1212)
+* [#1204] chores(ci): Fix the ci pipeline of Kubernetes #1205
+* [#1182] fix(operator): The LeaderElectionNamespace of the rss-controller is hard-coded to kube-system. (#1183)
 * [#1175] fix(netty): Retry failed with StacklessClosedChannelException after channel closed (#1181)
 * [#1177] improvement: Reduce the write time of tasks (#1179)
 * [MINOR] docs: Fix spark.serializer in README and client_guide (#1180)
