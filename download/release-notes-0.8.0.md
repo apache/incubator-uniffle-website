@@ -15,6 +15,11 @@ sidebar_position: 995
 
 ## ChangeLog
 
+* [#1290] improvement(operator): Avoid accidentally deleting data of other services when misconfiguring the mounting directory (#1291)
+* [MINOR] fix: flaky test ShuffleTaskManagerTest#checkAndClearLeakShuffleDataTest (#1320)
+* [MINOR] test: flaky test GrpcServerTest.testGrpcExecutorPool (#1321)
+* [MINOR] docs: update jar name for spark client (#1289)
+* [MINOR] chore: add scripts for publishing tarballs to svn (#1284)
 * [MINOR] fix: incorrect version in spark client shaded modules
 * [#1275] chore: add scripts for publishing maven releases (#1281)
 * [#1274] feat: add shaded module for spark2 client (#1280)
