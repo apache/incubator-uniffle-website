@@ -39,6 +39,13 @@ The latest release is `0.7.1`.
     </thead>
     <tbody>
         <tr>
+            <td>Apache Uniffle 0.8.0 (incubating)</td>
+            <td><a href="https://downloads.apache.org/incubator/uniffle/0.8.0/apache-uniffle-0.8.0-incubating-bin.tar.gz">tar.gz</a></td>
+            <td><a href="https://downloads.apache.org/incubator/uniffle/0.8.0/apache-uniffle-0.8.0-incubating-bin.tar.gz.sha512">SHA-512</a></td>
+            <td><a href="https://downloads.apache.org/incubator/uniffle/0.8.0/apache-uniffle-0.8.0-incubating-bin.tar.gz.asc">ASC</a></td>
+            <td><a href="https://uniffle.apache.org/download/release-notes-0.8.0">Release Notes</a></td>
+        </tr>
+        <tr>
             <td>Apache Uniffle 0.7.1 (incubating)</td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.7.1/apache-uniffle-0.7.1-incubating-src.tar.gz">tar.gz</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.7.1/apache-uniffle-0.7.1-incubating-src.tar.gz.sha512">SHA-512</a></td>
