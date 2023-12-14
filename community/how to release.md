@@ -215,7 +215,7 @@ $  ./release/publish_maven_artifacts.sh
 
 #### 2.4.2 Stage the release for a vote
 Now you must close the staging repository(https://repository.apache.org/#stagingRepositories) to indicate to Nexus that the build is done and to make the artifacts available. Follow the steps in Closing the Staged Repository, later in this document. This will allow your community to vote on the staged artifacts.
-Refer: https://infra.apache.org/publishing-maven-artifacts.html
+Refer: https://central.sonatype.org/publish/release/#locate-and-examine-your-staging-repository
 
 ## 3 Verify Release Candidates
 More detail checklist please refer: https://cwiki.apache.org/confluence/display/INCUBATOR/Incubator+Release+Checklist
@@ -430,7 +430,10 @@ $ svn cp https://dist.apache.org/repos/dist/dev/incubator/uniffle/KEYS https://d
 - Confirm that `${release_version}-${rc_version}` under [dev](https://dist.apache.org/repos/dist/dev/incubator/uniffle/) has been removed
 
 
-### 5.3 Update download page
+### 5.3 Release Staging Repository in Nexus
+Release the staging repository by pressing the Release button. Refer: https://central.sonatype.org/publish/release/#close-and-drop-or-release-your-staging-repository
+
+### 5.4 Update download page
 
 <font color='red'>Chinese and English documents should be updated</font>
 
@@ -440,7 +443,7 @@ After waiting and confirming that the new release version is synced to the Apach
 
 - https://uniffle.apache.org/download/
 
-### 5.4 GitHub version released
+### 5.5 GitHub version released
 
 1. Tag the official version, and the RC version tag during the voting process can be removed
 2. On the [GitHub Releases](https://github.com/apache/incubator-uniffle/releases) page, update the version number and version description, etc.
