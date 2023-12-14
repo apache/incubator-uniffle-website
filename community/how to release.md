@@ -184,11 +184,7 @@ $ svn ci -m "add gpg key for YOUR_NAME"
 export RELEASE_RC_NO=${RC NO, eg: 1, 2 ,3};
 export ASF_USERNAME=${YOUR ASF USERNAME};
 export ASF_PASSWORD=${YOUR ASF PASSWORD};
-cd ${project dir}
-export RELEASE_VERSION=$(grep 'uniffle-parent' "./pom.xml" -C 3 |grep 'version' \
-                | head -n 1 \
-                | sed 's/<\/*version>//g' \
-                | sed 's/ //g')
+export RELEASE_VERSION=${release version, eg:0.8.0}
 ```
 
 ### 2.2 Create a tag
