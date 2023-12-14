@@ -177,115 +177,47 @@ $ svn ci -m "add gpg key for YOUR_NAME"
 ```
 
 
-### 2.1 Package source code
+## 2 Publish staging artifacts
+
+### 2.1 Set environment variables
+```shell
+export RELEASE_RC_NO=${RC NO, eg: 1, 2 ,3};
+export ASF_USERNAME=${YOUR ASF USERNAME};
+export ASF_PASSWORD=${YOUR ASF PASSWORD};
+export RELEASE_VERSION=${release version, eg:0.8.0}
+```
+
+### 2.2 Create a tag
 
 We should prepare a new branch, modify and ensure the version of pom, and add a tag
 ```shell
-git checkout branch-1.0.3
-git tag v1.0.3-rc1
-git push origin v1.0.3-rc1
+git checkout branch-${RELEASE_VERSION}
+git tag v${RELEASE_VERSION}-rc${RELEASE_RC_NO}
+git push origin v${RELEASE_VERSION}-rc${RELEASE_RC_NO}
 ```
 
+### 2.3 Publish the Apache SVN repository
+
 ```shell
-$ mkdir -p dist/apache-uniffle
-
-#based on the release-1.0.3-rc1 branch to package the source code tar.gz material
-#--prefix=apache-uniffle-1.0.3-incubating-src/ Note that the `/` archive will be in the apache-uniffle-1.0.3-incubating-src folder after decompression
-#A pax_global_header file will be generated to record the commitid information. Without the --prefix, it will cause pax_global_header to be in the same level directory as the source file after decompression
-
-$ git archive --format=tar.gz --output="dist/apache-uniffle/apache-uniffle-1.0.3-incubating-src.tar.gz" --prefix=apache-uniffle-1.0.3-incubating-src/  release-1.0.3-rc1
-```
-### 2.2 Copy binary files
-
-After step 2.1 is executed, the binary file has been generated, located in uniffle-dist/target/apache-uniffle-1.0.3-incubating-bin.tar.gz
-```shell
-$ cp uniffle-dist/target/apache-uniffle-1.0.3-incubating-bin.tar.gz dist/apache-uniffle
+$ ./release/publish_to_svn.sh
 ```
 
+### 2.4 Publishing maven artifacts
 
-### 2.3 Sign the source package/binary package/sha512
+#### 2.4.1 Upload the artifacts
 ```shell
-$ cd dist/apache-uniffle
-
-$ for i in *.tar.gz; do echo $i; gpg --armor --output $i.asc --detach-sig $i; done # Calculate signature
-
-$ for i in *.tar.gz; do echo $i; sha512sum  $i > $i.sha512 ; done # Calculate SHA512
+$  ./release/publish_maven_artifacts.sh
 ```
 
-### 2.4 Check whether the generated signature/sha512 is correct
-Verify that the signature is correct as follows:
-```shell
-$ cd dist/apache-uniffle
-$ for i in *.tar.gz; do echo $i; gpg --verify $i.asc $i; done
-```
+#### 2.4.2 Stage the release for a vote
+Now you must close the staging repository(https://repository.apache.org/#stagingRepositories) to indicate to Nexus that the build is done and to make the artifacts available. Follow the steps in Closing the Staged Repository, later in this document. This will allow your community to vote on the staged artifacts.
+Refer: https://central.sonatype.org/publish/release/#locate-and-examine-your-staging-repository
 
-If something like the following appears, the signature is correct. Keyword: **`Good signature`**
-```shell
-     apache-uniffle-xxx-incubating-src.tar.gz
-     gpg: Signature made XXXX
-     gpg: using RSA key XXXXX
-     gpg: Good signature from "xxx @apache.org>"
-````
-
-Verify that sha512 is correct as follows:
-```shell
-$ cd dist/apache-uniffle
-$ for i in *.tar.gz; do echo $i; sha512sum --check $i.sha512; done
-
-```
-
-
-## 3 Publish the Apache SVN repository
-
-- The Uniffle [DEV branch](https://dist.apache.org/repos/dist/dev/incubator/uniffle) is used to store the source code and binary materials of the candidate version
-- The RC version voted by the Uniffle [Release branch](https://dist.apache.org/repos/dist/release/incubator/uniffle) will eventually be moved to the release library
-
-### 3.1 Check out the Uniffle release directory
-
-Check out the Uniffle distribution directory from the Apache SVN dev directory.
-
-```shell
-$ svn co https://dist.apache.org/repos/dist/dev/incubator/uniffle dist/uniffle_svn_dev
-
-```
-
-### 3.2 Add the content to be published to the SVN directory
-
-Create a version number directory and name it in the way of `${release_version}-${RC_version}`, RC_version starts from 1, that is, the candidate version starts from RC1. During the release process, there is a problem that causes the vote to be rejected, and it needs to be corrected and iterated. RC version, RC version number should be +1.
-For example: 1.0.3-RC1 version is voted, if the vote is passed without any problems, the RC1 version material will be released as the final version material.
-If there is a problem (when voting in the uniffle/incubator community, voters will strictly check various release requirements and compliance issues) and need to be corrected. After the correction, the vote will be re-initiated. The candidate version for the next vote is 1.0.3- RC2.
-
-```shell
-$ mkdir -p dist/uniffle_svn_dev/1.0.3-RC1
-```
-
-Add the source code package, binary package, and Uniffle executable binary package to the SVN working directory.
-
-```shell
-$ cp -f dist/apache-uniffle/* dist/uniffle_svn_dev/1.0.3-RC1
-
-```
-### 3.3 Submit Apache SVN
-
-```shell
-$ cd dist/uniffle_svn_dev/
-
-# Check svn status
-$ svn status
-# Add to svn version
-$ svn add 1.0.3-RC1
-$ svn status
-# Submit to svn remote server
-$ svn commit -m "prepare for 1.0.3-RC1"
-
-```
-If Chinese garbled characters appear in the svn command, you can try to set the encoding format (set the encoding format: export LANG=en_US.UTF-8).
-
-## 4 Verify Release Candidates
+## 3 Verify Release Candidates
 More detail checklist please refer: https://cwiki.apache.org/confluence/display/INCUBATOR/Incubator+Release+Checklist
 
 
-## 5 Initiates a vote
+## 4 Initiates a vote
 
 > Uniffle is still in the incubation stage and needs to vote twice
 :::tip
@@ -302,12 +234,12 @@ The DISCLAIMER-WIP disclaimer is currently used, please add this description `As
 - To vote in the Uniffle community, send an email to: `dev@uniffle.apache.org`
 - To vote in the incubator community, send an email to: `general@incubator.apache.org` After Uniffle graduates, you only need to vote in the Uniffle community
 
-### 5.1 Uniffle community voting stage
+### 4.1 Uniffle community voting stage
 
 - To vote in the Uniffle community, send a voting email to `dev@uniffle.apache.org`. PMC needs to check the correctness of the version according to the document, and then vote. After at least 72 hours have passed and three `+1 PMC member` votes have been counted, you can enter the next stage of voting.
 - Announce the results of the voting and send an email to the result of the voting to `dev@uniffle.apache.org`.
 
-#### 5.1.1 Uniffle Community Voting Template
+#### 4.1.1 Uniffle Community Voting Template
 
 ```html
 title:
@@ -361,7 +293,7 @@ Thanks,
 ${Uniffle Release Manager}
 ```
 
-#### 5.1.2 Announce voting result template
+#### 4.1.2 Announce voting result template
 
 ```html
 title:
@@ -386,12 +318,12 @@ Thank you for your support.
 ${Uniffle Release Manager}
 ```
 
-### 5.2 Incubator community voting stage
+### 4.2 Incubator community voting stage
 
 - To vote in the Incubator community, send a voting email to `general@incubator.apache.org`, and 3 `+1 IPMC Member` votes are required to proceed to the next stage.
 - Announce the result of the poll, send an email to `general@incubator.apache.org` and send a copy to `dev@uniffle.apache.org`.
 
-#### 5.2.1 Incubator community voting template
+#### 4.2.1 Incubator community voting template
 
 ```html
 Title: [VOTE] Release Apache Uniffle(Incubating) ${release_version} ${rc_version}
@@ -442,7 +374,7 @@ On behalf of Apache Uniffle (Incubating) community
 
 ```
 
-#### 5.2.2 Announce voting result template
+#### 4.2.2 Announce voting result template
 
 ```html
 Title: [RESULT][VOTE] Release Apache Uniffle ${release_version} {rc_version}
@@ -468,9 +400,9 @@ be working on publishing the artifacts soon.
 Thanks
 On behalf of Apache Uniffle(Incubating) community
 ```
-## 6 Official release
+## 5 Official release
 
-### 6.1 Migrating source and binary packages
+### 5.1 Migrating source and binary packages
 :::caution note
 The path name of release cannot carry the rc identifier
 :::
@@ -489,12 +421,15 @@ $ svn delete https://dist.apache.org/repos/dist/release/incubator/uniffle/KEYS -
 $ svn cp https://dist.apache.org/repos/dist/dev/incubator/uniffle/KEYS https://dist.apache.org/repos/dist/release/incubator/uniffle/ -m "transfer KEYS for ${release_version}-${rc_version}"
 ```
 
-### 6.2 Confirm whether the packages under dev and release are correct
+### 5.2 Confirm whether the packages under dev and release are correct
 
 - Confirm that `${release_version}-${rc_version}` under [dev](https://dist.apache.org/repos/dist/dev/incubator/uniffle/) has been removed
 
 
-### 6.3 Update download page
+### 5.3 Release Staging Repository in Nexus
+Release the staging repository by pressing the Release button. Refer: https://central.sonatype.org/publish/release/#close-and-drop-or-release-your-staging-repository
+
+### 5.4 Update download page
 
 <font color='red'>Chinese and English documents should be updated</font>
 
@@ -504,13 +439,13 @@ After waiting and confirming that the new release version is synced to the Apach
 
 - https://uniffle.apache.org/download/
 
-### 6.4 GitHub version released
+### 5.5 GitHub version released
 
 1. Tag the official version, and the RC version tag during the voting process can be removed
 2. On the [GitHub Releases](https://github.com/apache/incubator-uniffle/releases) page, update the version number and version description, etc.
 
 
-## 7 Email notification version is released
+## 6 Email notification version is released
 
 > Please make sure that the Apache Staging repository has been published successfully, usually mail is published 24 hours after this step
 
@@ -525,7 +460,7 @@ Hi all,
 
 Apache Uniffle (Incubating) Team is glad to announce the new release of Apache Uniffle (Incubating) ${release_version}.
 
-Apache Uniffle (Incubating) builds a computation middleware layer to decouple the upper applications and the underlying data engines, provides standardized interfaces (REST, JDBC, WebSocket etc.) to easily connect to various underlying engines (Spark, Presto, Flink, etc.), while enables cross engine context sharing, unified job& engine governance and orchestration.
+Apache Uniffle (Incubating) is designed as a unified shuffle engine for multiple computing frameworks, including Apache Spark and Apache Hadoop. Uniffle has provided pluggable client plugins to enable remote shuffle in Spark, Flink, MapReduce and TEZ.
 
 Download Links: https://uniffle.apache.org/download/
 
