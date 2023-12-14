@@ -213,9 +213,9 @@ $ ./release/publish_to_svn.sh
 $  ./release/publish_maven_artifacts.sh
 ```
 
-#### Stage the release for a vote
-Now you must close the staging repository to indicate to Nexus that the build is done and to make the artifacts available. Follow the steps in Closing the Staged Repository, later in this document. This will allow your community to vote on the staged artifacts.
-Refer: https://repository.apache.org/#stagingRepositories
+#### 2.4.2 Stage the release for a vote
+Now you must close the staging repository(https://repository.apache.org/#stagingRepositories) to indicate to Nexus that the build is done and to make the artifacts available. Follow the steps in Closing the Staged Repository, later in this document. This will allow your community to vote on the staged artifacts.
+Refer: https://infra.apache.org/publishing-maven-artifacts.html
 
 ## 3 Verify Release Candidates
 More detail checklist please refer: https://cwiki.apache.org/confluence/display/INCUBATOR/Incubator+Release+Checklist
