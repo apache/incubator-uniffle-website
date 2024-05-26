@@ -24,7 +24,7 @@ limitations under the License.
 ## Apache Uniffle (incubating) Downloads
 
 Apache Uniffle (incubating) is released as a source artifact.
-The latest release is `0.7.1`.
+The latest release is `0.8.0`.
 
 ### Releases
 <table class="table table-hover sortable">
@@ -34,30 +34,73 @@ The latest release is `0.7.1`.
             <th><b>Source Archive</b></th>
             <th><b>SHA-512</b></th>
             <th><b>Signature</b></th>
+            <th><b>Binary Archive</b></th>
+            <th><b>SHA-512</b></th>
+            <th><b>Signature</b></th>
             <th><b>Release Notes</b></th>
+            <th><b>Release Manager</b></th>
+            <th><b>Release Date</b></th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>Apache Uniffle 0.8.0 (incubating)</td>
+            <td><a href="https://downloads.apache.org/incubator/uniffle/0.8.0/apache-uniffle-0.8.0-incubating-src.tar.gz">tar.gz</a></td>
+            <td><a href="https://downloads.apache.org/incubator/uniffle/0.8.0/apache-uniffle-0.8.0-incubating-src.tar.gz.sha512">SHA-512</a></td>
+            <td><a href="https://downloads.apache.org/incubator/uniffle/0.8.0/apache-uniffle-0.8.0-incubating-src.tar.gz.asc">ASC</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.8.0/apache-uniffle-0.8.0-incubating-bin.tar.gz">tar.gz</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.8.0/apache-uniffle-0.8.0-incubating-bin.tar.gz.sha512">SHA-512</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.8.0/apache-uniffle-0.8.0-incubating-bin.tar.gz.asc">ASC</a></td>
             <td><a href="https://uniffle.apache.org/download/release-notes-0.8.0">Release Notes</a></td>
+            <td>Xianjing Feng (From SF Express)</td>
+            <td>2023.12.14</td>
         </tr>
         <tr>
             <td>Apache Uniffle 0.7.1 (incubating)</td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.7.1/apache-uniffle-0.7.1-incubating-src.tar.gz">tar.gz</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.7.1/apache-uniffle-0.7.1-incubating-src.tar.gz.sha512">SHA-512</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.7.1/apache-uniffle-0.7.1-incubating-src.tar.gz.asc">ASC</a></td>
+            <td> Not released </td>
+            <td> Not released </td>
+            <td> Not released </td>
             <td><a href="https://uniffle.apache.org/download/release-notes-0.7.1">Release Notes</a></td>
+            <td>Jiafu Zhang (From Intel)</td>
+            <td>2023.07.10</td>
+        </tr>
+        <tr>
+            <td>Apache Uniffle 0.7.0 (incubating)</td>
+            <td><a href="https://downloads.apache.org/incubator/uniffle/0.7.0/apache-uniffle-0.7.0-incubating-src.tar.gz">tar.gz</a></td>
+            <td><a href="https://downloads.apache.org/incubator/uniffle/0.7.1/apache-uniffle-0.7.0-incubating-src.tar.gz.sha512">SHA-512</a></td>
+            <td><a href="https://downloads.apache.org/incubator/uniffle/0.7.1/apache-uniffle-0.7.0-incubating-src.tar.gz.asc">ASC</a></td>
+            <td> Not released </td>
+            <td> Not released </td>
+            <td> Not released </td>
+            <td><a href="https://uniffle.apache.org/download/release-notes-0.7.0">Release Notes</a></td>
+            <td>Junfan Zhang (From Aqiyi)</td>
+            <td>2023.04.10</td>
         </tr>
         <tr>
             <td>Apache Uniffle 0.6.1 (incubating)</td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.6.1/apache-uniffle-0.6.1-incubating-src.tar.gz">tar.gz</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.6.1/apache-uniffle-0.6.1-incubating-src.tar.gz.sha512">SHA-512</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.6.1/apache-uniffle-0.6.1-incubating-src.tar.gz.asc">ASC</a></td>
+            <td> Not released </td>
+            <td> Not released </td>
+            <td> Not released </td>
             <td><a href="https://uniffle.apache.org/download/release-notes-0.6.1">Release Notes</a></td>
+            <td>Kaijie Chen (From SelectDB)</td>
+            <td>2022.12.09</td>
+         <tr>
+            <td>Apache Uniffle 0.6.0 (incubating)</td>
+            <td><a href="https://downloads.apache.org/incubator/uniffle/0.6.0/apache-uniffle-0.6.0-incubating-src.tar.gz">tar.gz</a></td>
+            <td><a href="https://downloads.apache.org/incubator/uniffle/0.6.0/apache-uniffle-0.6.0-incubating-src.tar.gz.sha512">SHA-512</a></td>
+            <td><a href="https://downloads.apache.org/incubator/uniffle/0.6.0/apache-uniffle-0.6.0-incubating-src.tar.gz.asc">ASC</a></td>
+            <td> Not released </td>
+            <td> Not released </td>
+            <td> Not released </td>
+            <td><a href="https://uniffle.apache.org/download/release-notes-0.6.0">Release Notes</a></td>
+            <td>He Qi (From Datastrato)</td>
+            <td>2022.10.26</td>
         </tr>
     </tbody>
 </table>

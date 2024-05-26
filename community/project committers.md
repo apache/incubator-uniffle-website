@@ -20,7 +20,7 @@
   |-----------------|--------------|
   | Jerry Shao      | DataStrato   |
   | Junjie Ma       | eBay         |
-  | He Qi           | Tencent      |
+  | He Qi           | DatasStrato  |
   | Meng Duan       | Tencent      |
   | Zhifang Li      | Tencent      |
   | Fanbo Nie       | Vipshop      |
@@ -33,3 +33,5 @@
   | Xianjing Feng   | SF Express   |
   | Jingxiong Zhong | ByteDance    |
   | Xianming Lei    | DiDi Global  |
+  | Chenyu Zheng    | Ke Holdings  |
+  | Qing Liu        | Lalamove     |
