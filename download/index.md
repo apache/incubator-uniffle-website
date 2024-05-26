@@ -90,6 +90,7 @@ The latest release is `0.8.0`.
             <td><a href="https://uniffle.apache.org/download/release-notes-0.6.1">Release Notes</a></td>
             <td>Kaijie Chen (From SelectDB)</td>
             <td>2022.12.09</td>
+        </tr>
          <tr>
             <td>Apache Uniffle 0.6.0 (incubating)</td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.6.0/apache-uniffle-0.6.0-incubating-src.tar.gz">tar.gz</a></td>
