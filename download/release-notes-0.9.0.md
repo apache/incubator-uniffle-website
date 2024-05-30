@@ -8,6 +8,10 @@ sidebar_position: 995
 ## Highlight
 
 - Introduce dashboard.
+- Introduce rust-based shuffle server.
+- Add support for Spark 3.5.
+- Add dynamic allocation patch for Spark.
+- Add shaded spark client.
 
 ## ChangeLog
 
@@ -64,7 +68,7 @@ sidebar_position: 995
 * [#808] improvement(spark): Verify the number of written records to ensure data correctness (#1558)
 * [MINOR] improvement(client): Override getClientInfo method in ShuffleServerGrpcNettyClient and remove unused getDesc method (#1559)
 * [#1552] improvement: Migrate from log4j1 to log4j2 (#1553)
-* [#1472][part-6] followup: Fix Netty transport time when sending shuffle data requests (#1551)
+* [#1472][part-6] FOLLOWUP: Fix Netty transport time when sending shuffle data requests (#1551)
 * [#134][FOLLOWUP] improvement(spark2): Use taskId and attemptNo as taskAttemptId (#1544)
 * [#1549] fix(common): Uniformly throw RssException for external callers (#1550)
 * [MINOR] test: Use sensible partition ids in ShuffleReadClientImplTest (#1545)
@@ -141,14 +145,14 @@ sidebar_position: 995
 * [#1403] fix(client): RSS client configurations are not working. (#1404)
 * [#1409] fix(client): Netty Epoll is unavailable for the RSS Client. (#1410)
 * [#1407] improvement(rust): Critical bug fix of getting blockIds and some optimization (#1408)
-* [#825][followup] fix(spark): Fix without returning an exception. (#1402)
+* [#825][FOLLOWUP] fix(spark): Fix without returning an exception. (#1402)
 * [#1385] improvement: Improve log4j appender layout pattern (#1386)
-* [851] improvement: Add a similar util method like ThreadUtils.parmap in the Spark (#1396)
+* [#851] improvement: Add a similar util method like ThreadUtils.parmap in the Spark (#1396)
 * [#363] improvement(server): Make the coordinator client managed by CoordinatorClientFactory singleton (#1377)
 * [#1391] fix(server): Direct memory may leak in exceptional scenarios in shuffle server. (#1392)
 * [#1157] fix(tez): Container not exit because shuffle client is not closed
 * [#460] improvement: Exit on OutOfMemoryError (#1390)
-* [1387] improvement: compatibility with jdk8 when call JavaUtils.newConcurrentMap (#1389)
+* [#1387] improvement: compatibility with jdk8 when call JavaUtils.newConcurrentMap (#1389)
 * [#1369] feat: Provide distribution with Hadoop dependencies (#1379)
 * [#1383] [DOCS] Improve Netty's documentation (#1384)
 * [#1358] fix(spark): pre-check bytebuffer whether is direct before uncompress (#1360)
@@ -167,7 +171,7 @@ sidebar_position: 995
 * [#1319] fix(server): Add shaded com.google.guava:failureaccess dependency to prevent NoClassDefFoundError (#1352)
 * [MINOR] improvement: use mvn wrapper in CI builds. (#1351)
 * [#1191][FOLLOWUP] improvement(conf): use the unified name for hybrid storage in conf (#1350)
-* [#960][followup] fix(dashboard): Fix get_pid_file_name function for the dashboard. (#1346)
+* [#960][FOLLOWUP] fix(dashboard): Fix get_pid_file_name function for the dashboard. (#1346)
 * [MINOR] improvement: use mvn wrapper for builds (#1345)
 * [#901] feat(server): respect disk capacity watermark rather than uniffle capacity (#1337)
 * [#1342] improvement(server): dump appId when clearing resource fails (#1343)
