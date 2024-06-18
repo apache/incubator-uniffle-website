@@ -35,3 +35,4 @@
   | Xianming Lei    | DiDi Global  |
   | Chenyu Zheng    | Ke Holdings  |
   | Qing Liu        | Lalamove     |
+  | Enrico Minack   | G-Research   |
