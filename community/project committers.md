@@ -20,7 +20,7 @@
   |-----------------|--------------|
   | Jerry Shao      | DataStrato   |
   | Junjie Ma       | eBay         |
-  | He Qi           | DatasStrato  |
+  | He Qi           | DataStrato   |
   | Meng Duan       | Tencent      |
   | Zhifang Li      | Tencent      |
   | Fanbo Nie       | Vipshop      |
