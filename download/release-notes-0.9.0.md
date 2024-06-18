@@ -10,8 +10,8 @@ sidebar_position: 995
 - Introduce dashboard.
 - Introduce rust-based shuffle server.
 - Add support for Spark 3.5.
-- Add dynamic allocation patch for Spark.
-- Add shaded spark client.
+- The data transportation Netty mode is production available.
+- Reduce block id layout limitations and simplify layout configuration for Spark.
 
 ## ChangeLog
 
