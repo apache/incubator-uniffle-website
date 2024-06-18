@@ -36,3 +36,12 @@
   | Chenyu Zheng    | Ke Holdings  |
   | Qing Liu        | Lalamove     |
   | Enrico Minack   | G-Research   |
+  | Colin           |              |
+  | Felix Cheung    |              |
+  | Junping Du      |              |
+  | Liu Xun         |              |
+  | Ricky Ma        |              |
+  | He Qi           |              |
+  | Weiwei Yang     |              |
+  | Yang Jie        |              |
+  | Zhankun Tang    |              |
