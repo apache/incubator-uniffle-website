@@ -15,6 +15,8 @@ sidebar_position: 995
 
 ## ChangeLog
 
+* [#1751][0.9] improvement: support gluten (#1753)
+* [#1764] fix(client): Fix timeout time unit for unregister requests (#1766)
 * [#1149] fix: GC logs in JDK 11 do not include date and time stamps. (#1240)
 * [#1675][FOLLOWUP] fix(test): Fix various flaky tests (#1730)
 * [MINOR] fix: Update outdated config: rss.writer.send.check.timeout -> rss.client.send.check.timeout.ms (#1734)
