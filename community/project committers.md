@@ -36,7 +36,6 @@
   | Chenyu Zheng    | Ke Holdings  |
   | Qing Liu        | Lalamove     |
   | Enrico Minack   | G-Research   |
-  | Colin           | eBay         |
   | Felix Cheung    | NVIDIA       |
   | Junping Du      | Datastrato   |
   | Liu Xun         | Datastrato   |
