@@ -257,6 +257,8 @@ Hello Uniffle Community,
     The release candidates:
         https://dist.apache.org/repos/dist/dev/incubator/uniffle/${release_version}-${rc_version}/
     
+    The Staging Repository:
+        https://repository.apache.org/content/repositories/orgapacheuniffle-${staging_id}/
     
     Git tag for the release:
         https://github.com/apache/incubator-uniffle/tree/v${release_version}-${rc_version}
