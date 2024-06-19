@@ -282,7 +282,7 @@ Hello Uniffle Community,
     [] Download links are valid.
     [] Checksums and PGP signatures are valid.
     [] Source code distributions have correct names matching the current release.
-    [] LICENSE and NOTICE files are correct for each LUniffle repo.
+    [] LICENSE and NOTICE files are correct for each Uniffle repo.
     [] All files have license headers if necessary.
     [] No unlicensed compiled archives bundled in source archive.
     
