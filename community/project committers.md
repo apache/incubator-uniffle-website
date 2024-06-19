@@ -18,9 +18,9 @@
   ## current committers
   | Name            | Organization |
   |-----------------|--------------|
-  | Jerry Shao      | DataStrato   |
+  | Jerry Shao      | Datastrato   |
   | Junjie Ma       | eBay         |
-  | He Qi           | DatasStrato  |
+  | He Qi           | Datastrato   |
   | Meng Duan       | Tencent      |
   | Zhifang Li      | Tencent      |
   | Fanbo Nie       | Vipshop      |
@@ -36,12 +36,11 @@
   | Chenyu Zheng    | Ke Holdings  |
   | Qing Liu        | Lalamove     |
   | Enrico Minack   | G-Research   |
-  | Colin           |              |
-  | Felix Cheung    |              |
-  | Junping Du      |              |
-  | Liu Xun         |              |
-  | Ricky Ma        |              |
-  | He Qi           |              |
-  | Weiwei Yang     |              |
-  | Yang Jie        |              |
-  | Zhankun Tang    |              |
+  | Colin           | eBay         |
+  | Felix Cheung    | NVIDIA       |
+  | Junping Du      | Datastrato   |
+  | Liu Xun         | Datastrato   |
+  | Ricky Ma        | Tencent      |
+  | Weiwei Yang     | Apple        |
+  | Yang Jie        | Baidu        |
+  | Zhankun Tang    | Cloudera     |
