@@ -41,5 +41,4 @@
   | Liu Xun         | Datastrato   |
   | Ricky Ma        | Tencent      |
   | Weiwei Yang     | Apple        |
-  | Yang Jie        | Baidu        |
   | Zhankun Tang    | Cloudera     |
