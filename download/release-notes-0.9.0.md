@@ -1,6 +1,6 @@
 ---
 title: Release Notes 0.9.0
-sidebar_position: 995
+sidebar_position: 994
 ---
 
 # Uniffle Release 0.9.0
