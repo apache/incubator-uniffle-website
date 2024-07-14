@@ -236,7 +236,7 @@ The DISCLAIMER-WIP disclaimer is currently used, please add this description `As
 
 ### 4.1 Uniffle community voting stage
 
-- To vote in the Uniffle community, send a voting email to `dev@uniffle.apache.org`. PMC needs to check the correctness of the version according to the document, and then vote. After at least 72 hours have passed and three `+1 PMC member` votes have been counted, you can enter the next stage of voting.
+- To vote in the Uniffle community, send a voting email to `dev@uniffle.apache.org`. PMC members need to check the correctness of the version according to the document, and then vote. After at least 72 hours have passed and three `+1 PMC member` votes have been counted, you can enter the next stage of voting.
 - Announce the results of the voting and send an email to the result of the voting to `dev@uniffle.apache.org`.
 
 #### 4.1.1 Uniffle Community Voting Template
@@ -304,8 +304,7 @@ Hello Apache Uniffle PPMC and Community,
 
     The vote closes now as 72hr have passed. The vote PASSES with
 
-    xx (+1 non-binding) votes from the PPMC,
-    xx (+1 binding) votes from the IPMC,
+    xx (+1 binding) votes from the PPMC,
     xx (+1 non-binding) votes from the rest of the developer community,
     and no further 0 or -1 votes.
 
@@ -326,17 +325,17 @@ ${Uniffle Release Manager}
 #### 4.2.1 Incubator community voting template
 
 ```html
-Title: [VOTE] Release Apache Uniffle(Incubating) ${release_version} ${rc_version}
+Title: [VOTE] Release Apache Uniffle (Incubating) ${release_version} ${rc_version}
 
 content:
 
 Hello Incubator Community,
 
-    This is a call for a vote to release Apache Uniffle(Incubating) version
+    This is a call for a vote to release Apache Uniffle (Incubating) version
     ${release_version} ${rc_version}
 
     The Apache Uniffle community has voted on and approved a proposal to release
-    Apache Uniffle(Incubating) version ${release_version} ${rc_version}
+    Apache Uniffle (Incubating) version ${release_version} ${rc_version}
 
     We now kindly request the Incubator PMC members review and vote on this
     incubator release.
@@ -382,23 +381,23 @@ Title: [RESULT][VOTE] Release Apache Uniffle ${release_version} {rc_version}
 content:
 Hi all
 
-Thanks for reviewing and voting for Apache Uniffle(Incubating) ${release_version} {rc_version}
+Thanks for reviewing and voting for Apache Uniffle (Incubating) ${release_version} {rc_version}
 release, I am happy to announce the release voting has passed with [Number of voting results]
-binding votes, no +0 or -1 votes. Binding votes are from IPMC
+binding votes, no +0 or -1 votes. Binding votes are from IPMC members
 
-   -xxx
-   -xxx
-   -xxx
+   - xxx
+   - yyy
+   - zzz
 
 The voting thread is:
 [Incubator community Vote Link]
 
-Many thanks for all our mentors helping us with the release procedure, and
-all IPMC helped us to review and vote for Apache Uniffle(Incubating) release. I will
+Many thanks for all our mentors helping us with the release procedure, and all IPMC members
+helping us to review and vote for Apache Uniffle (Incubating) release. I will
 be working on publishing the artifacts soon.
 
 Thanks
-On behalf of Apache Uniffle(Incubating) community
+On behalf of Apache Uniffle (Incubating) community
 ```
 ## 5 Official release
 
