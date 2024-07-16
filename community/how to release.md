@@ -471,8 +471,7 @@ Uniffle Resources:
 - Issue: https://github.com/apache/incubator-uniffle/issues
 - Mailing list: dev@uniffle.apache.org
 
-- Apache Uniffle (Incubating) Team
-
+Apache Uniffle (Incubating) Team
 ```
 
 
