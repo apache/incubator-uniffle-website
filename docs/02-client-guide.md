@@ -25,12 +25,16 @@ This document will introduce how to deploy Uniffle client plugins with Spark and
 ### Support Spark Dynamic Allocation
 
 To support spark dynamic allocation with Uniffle, spark code should be updated.
-There are 2 patches for spark-2.4.6 and spark-3.1.2 in spark-patches folder for reference.
+There are 7 patches for spark (2.3.4/2.4.6/3.0.1/3.1.2/3.2.1/3.3.1/3.4.1) in patch/spark folder for reference.
 
 After apply the patch and rebuild spark, add following configuration in spark conf to enable dynamic allocation:
   ```
   spark.shuffle.service.enabled false
   spark.dynamicAllocation.enabled true
+  ```
+For spark3.5 or above just add one more configuration:
+  ```
+  spark.shuffle.sort.io.plugin.class org.apache.spark.shuffle.RssShuffleDataIo
   ```
 
 ### Deploy MapReduce Client Plugin
