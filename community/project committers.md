@@ -42,3 +42,4 @@
   | Ricky Ma        | Tencent      |
   | Weiwei Yang     | Apple        |
   | Zhankun Tang    | Cloudera     |
+  | Mao Baolong     | Tencent      |
