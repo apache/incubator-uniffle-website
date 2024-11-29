@@ -43,3 +43,19 @@
   | Weiwei Yang     | Apple        |
   | Zhankun Tang    | Cloudera     |
   | Mao Baolong     | Tencent      |
+
+## how to become a committer
+
+Anyone being supportive of the community and working in any of the CoPDoC areas can become an Apache Uniffle committer.
+The CoPDoC is an acronym from ASF to describe how we recognize your contributions not only by code.
+
+- Community - You can join us via our mailing list, issue trackers, discussions page to interact with community members, and share vision and knowledge
+- Project - a clear vision and consensus are needed
+- Documentation - without it, the stuff remains only in the minds of the authors
+- Code - discussion goes nowhere without code
+
+## how to become a member of Podding project committee
+
+There are no strict rules for becoming a PPMC member.
+Candidates for new PMC member are typically committers that are stilling actively participate in the community development after obtaining the committer membership,
+or contributors and community members that make significant contributions to the community for both code and contributor develop.
