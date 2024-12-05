@@ -24,7 +24,7 @@ limitations under the License.
 ## Apache Uniffle (incubating) Downloads
 
 Apache Uniffle (incubating) is released as a source artifact.
-The latest release is `0.9.0`.
+The latest release is `0.9.1`.
 
 ### Releases
 <table class="table table-hover sortable">
