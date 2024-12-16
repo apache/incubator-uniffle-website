@@ -23,9 +23,6 @@
   | He Qi           | Datastrato   |
   | Meng Duan       | Tencent      |
   | Zhifang Li      | Tencent      |
-  | Fanbo Nie       | Vipshop      |
-  | Zhong Wan       | Microsoft    |
-  | Jiafu Zhang     | Intel        |
   | Junfan Zhang    | IQIYI        |
   | Jie Yang        | Baidu        |
   | Kaijie Chen     | SelectDB     |
