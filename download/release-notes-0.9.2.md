@@ -7,7 +7,7 @@ sidebar_position: 992
 
 ## Highlight
 
-- Update NOTICE, LICENSE, licenses, security.md, DISCLAIMER and some scripts to fully complying the Apache requirements.
+- Update NOTICE, LICENSE, licenses, security.md, DISCLAIMER and some scripts to fully comply the Apache requirements.
 
 ## ChangeLog
 * [MINOR] community: Add security.md (#2268)
