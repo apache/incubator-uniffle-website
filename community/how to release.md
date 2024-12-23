@@ -228,7 +228,6 @@ Please use your apache.org mailbox to send emails, and use `plain text mode`, fo
 
 All Uniffle to checksums, signatures, and public keys must refer to the main Apache website https://downloads.apache.org/ and should use https://(SSL). For example: https://downloads.apache.org/incubator/uniffle/KEYS
 
-The DISCLAIMER-WIP disclaimer is currently used, please add this description `As the DISCLAIMER-WIP shows....` to the email. If the WIP pending problem is solved later, it can be removed. Use of WIP, see https://issues.apache.org/jira/browse/LEGAL-469 for details
 :::
 
 - To vote in the Uniffle community, send an email to: `dev@uniffle.apache.org`
