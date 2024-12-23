@@ -228,7 +228,6 @@ Please use your apache.org mailbox to send emails, and use `plain text mode`, fo
 
 All Uniffle to checksums, signatures, and public keys must refer to the main Apache website https://downloads.apache.org/ and should use https://(SSL). For example: https://downloads.apache.org/incubator/uniffle/KEYS
 
-The DISCLAIMER-WIP disclaimer is currently used, please add this description `As the DISCLAIMER-WIP shows....` to the email. If the WIP pending problem is solved later, it can be removed. Use of WIP, see https://issues.apache.org/jira/browse/LEGAL-469 for details
 :::
 
 - To vote in the Uniffle community, send an email to: `dev@uniffle.apache.org`
@@ -264,12 +263,10 @@ Hello Uniffle Community,
         https://github.com/apache/incubator-uniffle/tree/v${release_version}-${rc_version}
     
     Keys to verify the Release Candidate:
-         https://dist.apache.org/repos/dist/dev/incubator/uniffle/KEYS
+        https://dist.apache.org/repos/dist/dev/incubator/uniffle/KEYS
     
     GPG user ID:
     ${YOUR.GPG.USER.ID}
-    
-    As the DISCLAIMER-WIP shows, this release still left some license problems, which will be gradually resolved during incubation.
 
     The vote will be open for at least 72 hours or until necessary number of votes are reached.
     
@@ -359,8 +356,6 @@ Hello Incubator Community,
 
     The artifacts signed with PGP key [fill in your personal KEY], corresponding to [fill in your personal email], that can be found in keys file:
     • https://downloads.apache.org/incubator/uniffle/KEYS
-
-    As the DISCLAIMER-WIP shows, this release still left some license problems, which will be gradually resolved during incubation.
 
     The vote will be open for at least 72 hours or until necessary number of votes are reached.
 
