@@ -264,12 +264,10 @@ Hello Uniffle Community,
         https://github.com/apache/incubator-uniffle/tree/v${release_version}-${rc_version}
     
     Keys to verify the Release Candidate:
-         https://dist.apache.org/repos/dist/dev/incubator/uniffle/KEYS
+        https://dist.apache.org/repos/dist/dev/incubator/uniffle/KEYS
     
     GPG user ID:
     ${YOUR.GPG.USER.ID}
-    
-    As the DISCLAIMER-WIP shows, this release still left some license problems, which will be gradually resolved during incubation.
 
     The vote will be open for at least 72 hours or until necessary number of votes are reached.
     
@@ -359,8 +357,6 @@ Hello Incubator Community,
 
     The artifacts signed with PGP key [fill in your personal KEY], corresponding to [fill in your personal email], that can be found in keys file:
     • https://downloads.apache.org/incubator/uniffle/KEYS
-
-    As the DISCLAIMER-WIP shows, this release still left some license problems, which will be gradually resolved during incubation.
 
     The vote will be open for at least 72 hours or until necessary number of votes are reached.
 
