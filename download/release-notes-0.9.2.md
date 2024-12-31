@@ -15,3 +15,7 @@ sidebar_position: 992
 * Update create-package.sh (#2019)
 * [MINOR] Correct the NOTICE and LICENSE (#2271)
 * [MINOR] Add left licenses (#2272)
+* [#2304] improvement: Update the year of NOTICE (#2313)
+* [#2305] improvement: Add copyright for PingCAP (#2312)
+* [#2306] improvement: Remove repeated notice information (#2311)
+* [#2307] license: Add left jars with Apache license (#2310)
