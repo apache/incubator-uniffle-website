@@ -44,6 +44,18 @@ The latest release is `0.9.1`.
     </thead>
     <tbody>
         <tr>
+            <td>Apache Uniffle 0.9.2 (incubating)</td>
+            <td><a href="https://www.apache.org/dyn/closer.lua/incubator/uniffle/0.9.2/apache-uniffle-0.9.2-incubating-src.tar.gz">tar.gz</a></td>
+            <td><a href="https://downloads.apache.org/incubator/uniffle/0.9.2/apache-uniffle-0.9.2-incubating-src.tar.gz.sha512">SHA-512</a></td>
+            <td><a href="https://downloads.apache.org//incubator/uniffle/0.9.2/apache-uniffle-0.9.2-incubating-src.tar.gz.asc">ASC</a></td>
+            <td><a href="https://www.apache.org/dyn/closer.lua/incubator/uniffle/0.9.2/apache-uniffle-0.9.2-incubating-bin.tar.gz">tar.gz</a></td>
+            <td><a href="https://downloads.apache.org/incubator/uniffle/0.9.2/apache-uniffle-0.9.2-incubating-bin.tar.gz.sha512">SHA-512</a></td>
+            <td><a href="https://downloads.apache.org/incubator/uniffle/0.9.2/apache-uniffle-0.9.2-incubating-bin.tar.gz.asc">ASC</a></td>
+            <td><a href="https://uniffle.apache.org/download/release-notes-0.9.2">Release Notes</a></td>
+            <td>zhengchenyu (Ke Holdings)</td>
+            <td>2025.01.09</td>
+        </tr>
+        <tr>
             <td>Apache Uniffle 0.9.1 (incubating)</td>
             <td><a href="https://www.apache.org/dyn/closer.lua/incubator/uniffle/0.9.1/apache-uniffle-0.9.1-incubating-src.tar.gz">tar.gz</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.9.1/apache-uniffle-0.9.1-incubating-src.tar.gz.sha512">SHA-512</a></td>
